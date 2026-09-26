@@ -1,34 +1,34 @@
-# Java Programming Repository :
+# Java Programming
 
-Welcome to my Java development repository. This space serves as a dedicated archive documenting my progression in Object-Oriented Programming (OOP) using Java, covering structural core concepts, graphical interfaces, and academic laboratory milestones.
+My Java coursework — object-oriented programming learned class by class,
+from first syntax to interfaces, exceptions and GUI. 78 programs, all as
+IntelliJ IDEA projects, plus 5 graded assignments.
 
----
+## What's inside
 
-### Repository Structure and Topic Breakdown
+- `1st class code` → `6th class code` — week-by-week progress: entry points,
+  fields and objects, scope and methods, validation, encapsulation
+- `week 8 abste` — abstract classes
+- `week 9 interface`, `Interface Test` — interfaces and decoupling
+- `EXCEPTION` — try-catch, multi-catch, nested try, `throw`, my own
+  exception classes
+- `gui self` — a small desktop UI program
+- `THEORY` — arrays, classes and exam-slide experiments
+- `TST`, `random test` — rough test programs while learning
 
-The codebase is organized into dedicated directories structured around progressive learning tracks and coursework targets:
+## Assignments (each models a real thing with inheritance)
 
-*   **Object-Oriented Programming Foundations:**
-    *   `1st class code/1ST CLASS JAVA CODE`: Initial code configurations, entry points, and baseline language syntax.
-    *   `2nd class code/Codes of second class`: Class structures, attributes, and field instantiation specifications.
-    *   `Third Class Coding/Codes of the third class`: Scope management, runtime variables, and method implementations.
-    *   `Fourth Class Coding/codes of fourth class`: Logical validation frameworks integrated within individual objects.
-    *   `fifth class codes/Firth class`: Progression into intermediate class structural architectures.
-    *   `6th class code/6th class codd`: Encapsulation principles and operational abstraction models.
+- **Assignment 2** — `BankAccount` with `SavingsAccount` and
+  `CheckingAccount` (constructors, overloading, overriding with `super`)
+- **Assignment 3** — a `store` package: `Product` with `Book`, `Clothing`,
+  `Electronics`, tested from `Test`
+- **Assignment 4** — `Card` with `CreditCard`, `DebitCard`, `SalaryCard`
+- **5TH ASSIGNMENT** — composite-object capstone
 
-*   **Advanced OOP Paradigms and Stream Handling:**
-    *   `Interface Test`: System designs tracking abstract structures and decoupling specifications.
-    *   `EXCEPTION/EXCEPTION`: Runtime robustness using standard Java exception handling routines.
-    *   `week 8 abste/untitled`: Comprehensive abstract mapping layouts.
-    *   `week 9 interface`: Complete design specifications utilizing functional interface layouts.
+## How to run
 
-*   **Graphical Interfaces and Evaluation Sandboxes:**
-    *   `gui self/untitled`: Desktop presentation engineering utilizing native abstract UI components.
-    *   `THEORY`: Academic frameworks, design analysis documentation, and runtime evaluation guidelines.
-    *   `TST` / `random test/Random test`: Isolated logic sandboxes used to test procedural variables and system configurations.
+Open any module folder in IntelliJ IDEA and run its `main`/`Test` class, or:
 
-*   **Academic Milestones and Coursework:**
-    *   `Assignment 2`: Procedural algorithmic solutions built into OOP schemas.
-    *   `Assignment 3/3rd assignment`: Algorithmic system operations mapping real-world logical problems.
-    *   `ASSIGNMENT 4/assignment`: Extended coursework implementations optimizing modular logic components.
-    *   `5TH ASSIGNMENT/5TH ASSIGNMENT`: Advanced institutional problem sets evaluating composite object paradigms and structural validation.
+```bash
+javac "Assignment 3/3rd assignment/src/store/*.java"
+java -cp "Assignment 3/3rd assignment/src" store.Test
